@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: Tahoma;
-	background: url("img/background.png");
+	background: url("../img/background.png");
 }
 
 .card {
