@@ -1,11 +1,15 @@
 # -*- coding: utf8 -*-
 # by Sharapov Ilya
+# поговорить с ботом: @kalyanvnn_bot
+
+
 import telebot
 from telebot import types
 
-token = ''
 
+token = ''
 bot = telebot.TeleBot(token)
+
 
 def gen_markup():
 	markup = types.InlineKeyboardMarkup(row_width = 1)
